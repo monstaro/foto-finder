@@ -12,13 +12,29 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1 class="header-sitetitle">Foto <img src="images/foto-finder-logo.svg"> Finder</h1>
+        <h1 class="header-sitetitle">Foto
+            <img src="images/foto-finder-logo.svg" class="foto-finder-logo" alt="logo"> Finder</h1>
+        <section class="header-searchbar-container">
+            <input type="text" class="header-search-input" placeholder="Search"></input>
+            <input type="button" class="header-search-button">
+        </section>
     </header>
+    <main class="main-top">
+        <form class="main-top-form">
+            <label for="top-image-title">Title</label>
+            <input type="text" class="main-top-inputs">
+            <label for="top-image-caption">Caption</label>
+            <input type="text" class="main-top-inputs">
+            <input type="button" class="main-top-buttons" value="Choose File, mothafucka">
+            <input type="button" class="main-top-buttons" value="Add to Album">
+        </form>
+    </main>
 
 
     <script src="" async defer></script>

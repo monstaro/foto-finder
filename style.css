@@ -1,0 +1,88 @@
+body,
+html {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #3E2A35;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+}
+
+.header-sitetitle {
+    color: #FFFFFF;
+    font-size: 4em;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.foto-finder-logo {
+    width: 12%;
+}
+
+.header-searchbar-container {
+    display: flex;
+    justify-items: center;
+}
+
+.header-search-input {
+    border-bottom: 3px solid #C2B2B4;
+    border-left: 3px solid #C2B2B4;
+    border-right: none;
+    border-top: 3px solid #C2B2B4;
+    border-radius: 5px 0 0 5px;
+    margin: auto;
+    padding: 1% 0% 1% 1%;
+    font-size: 2em;
+    width: 12em;
+    /* height: 2.5em; */
+}
+
+.header-search-button {
+    background-image: url("images/search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C2B2B4;
+    border-bottom: 6px solid #C2B2B4;
+    border-left: 6px solid #C2B2B4;
+    border-right: 6px solid #C2B2B4;
+    border-top: 6px solid #C2B2B4;
+    border-radius: 0 5px 5px 0;
+    margin: auto 50px auto auto;
+    height: 2.25em;
+    width: 2.25em;
+}
+
+.main-top {
+    display: flex;
+    background-color: #3E2A35;
+}
+
+input,
+label {
+    display: block;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+label {
+    color: #FFFFFF;
+}
+
+.main-top-form {
+    margin: auto;
+}
+
+.main-top-inputs {
+    width: 25em;
+}
+
+.main-top-buttons {
+    background-color: #584547;
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: 26em;
+}
