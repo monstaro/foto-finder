@@ -1,10 +1,14 @@
-var photoTitle = document.querySelector("#photoTitle");
-var photoCaption = document.querySelector("#photoCaption");
 var addButton = document.querySelector("#addButton");
 var photoArray = [];
 
-addButton.addEventListener("click", instantiateCard)
+addButton.addEventListener("click", instantiatePhoto)
 
-function instantiateCard() {
-    console.log("test")
+function instantiatePhoto() {
+    var photoTitle = document.querySelector("#photoTitle").value;
+    var photoCaption = document.querySelector("#photoCaption").value;
+    // create new Photo instance
+    // pass photoTitle and photoCaption and file
+    // create variable to store information of instance
+    var newPhoto = new Photo(photoTitle, photoCaption, 'www.google.com')
+    photoArray.push(newPhoto)
 }
