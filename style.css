@@ -59,6 +59,7 @@ header {
 .main-top {
     display: flex;
     background-color: #3E2A35;
+    padding-bottom: 50px;
 }
 
 input,
@@ -85,4 +86,32 @@ label {
     color: #FFFFFF;
     margin-top: 20px;
     width: 26em;
+}
+
+.main-bottom {
+    display: flex;
+    justify-content: space-around;
+    background-color: #C2B2B4;
+    height: webkit-fill-available;
+}
+
+.main-bottom-card {
+    background-color: #FFFFFF;
+    border: 1px solid purple;
+    margin: 30px;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-control-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #584547;
+    padding: 20px 10px;
+}
+
+.bottom-card-icon {
+    width: 10%;
 }
