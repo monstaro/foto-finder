@@ -3,12 +3,23 @@ var photoArray = [];
 
 addButton.addEventListener("click", instantiatePhoto)
 
+
+
 function instantiatePhoto() {
+    console.log("test")
     var photoTitle = document.querySelector("#photoTitle").value;
     var photoCaption = document.querySelector("#photoCaption").value;
-    // create new Photo instance
-    // pass photoTitle and photoCaption and file
-    // create variable to store information of instance
-    var newPhoto = new Photo(photoTitle, photoCaption, 'www.google.com')
+    var newPhoto = new Photo(photoTitle, photoCaption, 'https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png')
     photoArray.push(newPhoto)
 }
+
+
+
+
+
+
+
+
+//click button,
+//instatiate photo,
+//pass new photo, save to storage

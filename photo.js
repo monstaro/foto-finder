@@ -5,4 +5,19 @@ class Photo {
         this.caption = caption;
         this.file = file;
     }
+    saveToStorage(storeObj) {
+        localStorage.setItem('storeObj', JSON.stringify(photoArray));
+    }
 }
+
+
+
+
+
+// deleteFromStorage() {
+
+// }
+
+// updatePhoto() {
+
+// }
