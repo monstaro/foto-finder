@@ -16,8 +16,8 @@ class Photo {
 
 // deleteFromStorage() {
 
-// }
+// 
 
 // updatePhoto() {
 
-// }
+//
