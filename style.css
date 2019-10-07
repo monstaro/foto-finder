@@ -81,6 +81,13 @@ label {
     width: 25em;
 }
 
+.upload {
+    opacity: 0;
+    overflow: hidden;
+    width: 26em;
+    position: absolute;
+}
+
 .main-top-buttons {
     background-color: #584547;
     color: #FFFFFF;
