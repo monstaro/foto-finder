@@ -90,15 +90,18 @@ label {
 
 .main-bottom {
     display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
     justify-content: space-around;
     background-color: #C2B2B4;
-    height: webkit-fill-available;
+    height: 600px;
 }
 
 .main-bottom-card {
     background-color: #FFFFFF;
     border: 1px solid purple;
     margin: 30px;
+    height: fit-content;
 }
 
 .card-image {
@@ -113,5 +116,29 @@ label {
 }
 
 .bottom-card-icon {
-    width: 10%;
+    width: 12%;
+}
+
+.fave {
+    background-image: url('images/favorite.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bottom-card-icon:hover {
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.main-top-buttons:hover {
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fave-clicked {
+    background-image: url('images/favorite-active.svg');
+    background-position: center;
+    background-repeat: no-repeat;
 }
