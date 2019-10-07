@@ -144,6 +144,10 @@ label {
     background-repeat: no-repeat;
 }
 
+.upload:hover {
+    cursor: pointer;
+}
+
 .fave-clicked {
     background-image: url('images/favorite-active.svg');
     background-position: center;
