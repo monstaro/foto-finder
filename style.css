@@ -142,3 +142,73 @@ label {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+@media all and (max-width: 1050px) {
+    body {
+        width: 100%;
+    }
+    header {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .header-searchbar-container {
+        margin: auto;
+    }
+    /* .header-search-input {
+        width: 85%;
+        margin: auto;
+    } */
+    .main-top-inputs {
+        width: 96%;
+    }
+    .header-sitetitle {
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+    header {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .header-searchbar-container {
+        margin: auto;
+    }
+    /* .header-search-input {
+        width: 85%;
+        margin: auto;
+    } */
+    .main-top-inputs {
+        width: 20em;
+    }
+    .main-top-buttons {
+        width: 100%;
+    }
+    .header-sitetitle {
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 550px) {
+    header {
+        display: inline-flex;
+    }
+    .header-sitetitle {
+        margin: auto;
+        font-size: 2em;
+        text-align: center;
+    }
+    .header-searchbar-container {
+        margin: auto;
+        width: auto;
+    }
+    .main-top-inputs {
+        width: 10em;
+    }
+    .main-top-buttons {
+        width: 100%;
+    }
+}
